@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background: linear-gradient(0deg, #F9FAFF, #F9FAFF);
+}
+header{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #FF6838;
+}
+.btn{
+background: #FF7A50;
+box-shadow: 0px 22px 40px 0px #FF683830;
+padding: 12px 24px;
+color: white;
+border-radius: 10px;
+border:none;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+h1{
+font-size: 66px;
+font-weight: 600;
+line-height: 78.21px;
+color: #363853;
+}
+span{
+    color: #FF7A50;
+}
+.hero p{
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #363853;
+margin-top: 50px 0;
+}
+.btn2{
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 30px 30px 0 30px;
+    border:none;
+    }
+    .card{
+        width: 361px;
+        background-color: white;
+        border-bottom-right-radius: 50px;
+    }
+    .card h3{
+        color: #363853;
+        font-size: 22px;
+        margin-top: 15px;
+        margin-left: 15px;  
+    }
+    .card-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .card-bottom p{
+        font-size: 20px;
+        color: #363853;
+    }
+    .restaurant{
+        font-size: 50px 0;
+    }
+    .restaurant h2{
+        text-align: center;
+        font-size: 36px;
+        color: #363853;
+    }
+    .card-ota{
+        display: flex;
+        justify-content: space-between;
+    }
+    .rma{
+        width: 1170px;
+        height: 312px;
+        background: #FF7A50;
+        border-radius: 50px;      
+    }
+    .rma h3{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 47.4px;
+        color: white;
+        padding-top: 100px;
+    }
+    input{
+        width: 839px;
+        height: 68px;
+        border-radius: 50px;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .btn3{
+        background: #FF7A50;
+        box-shadow: 0px 22px 40px 0px #FF683830;
+        padding: 15px 40px;
+        color: white;
+        border-radius: 50px;
+        margin-left: -150px;
+    }
